@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CollectionService.Application\CollectionService.Application.csproj" />
+    <ProjectReference Include="..\CollectionService.Domain\CollectionService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
